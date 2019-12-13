@@ -1,0 +1,15 @@
+//---------------------------------------------
+// FUNCTION
+//---------------------------------------------
+
+@function random-decimal() {
+  @return random(100) / 100;
+}
+
+@mixin random-rgba($attr, $color: 255, $alpha: random-decimal()) {
+  #{$attr}: rgba(random($color), random($color), random($color), $alpha);
+}
+
+// @mixin random-height($degree) {
+//   height: random($degree) + vh;
+// }

@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: moccasin;
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: 100vh; }
+
+div:nth-child(even) {
+  border-radius: 0 0 20px 30px;
+  display: grid;
+  align-self: start; }
+
+div:nth-child(odd) {
+  border-radius: 79px 66px 0 0;
+  align-self: end; }
+
+@keyframes randomMove {
+  0% {
+    height: 1vh; }
+  50% {
+    height: 95vh; }
+  100% {
+    height: 1vh; } }
+
+div:nth-child(1) {
+  animation: randomMove 6s infinite;
+  background-color: rgba(38, 169, 39, 0.45); }
+
+div:nth-child(2) {
+  animation: randomMove 14.5s infinite;
+  background-color: rgba(31, 118, 97, 0.03); }
+
+div:nth-child(3) {
+  animation: randomMove 10s infinite;
+  background-color: rgba(203, 169, 205, 0.93); }
+
+div:nth-child(4) {
+  animation: randomMove 1s infinite;
+  background-color: rgba(90, 79, 161, 0.67); }
+
+div:nth-child(5) {
+  animation: randomMove 14s infinite;
+  background-color: rgba(114, 107, 165, 0.89); }
+
+div:nth-child(6) {
+  animation: randomMove 4.5s infinite;
+  background-color: rgba(240, 35, 95, 0.53); }
+
+div:nth-child(7) {
+  animation: randomMove 15s infinite;
+  background-color: rgba(214, 68, 9, 0.45); }
+
+div:nth-child(8) {
+  animation: randomMove 6s infinite;
+  background-color: rgba(205, 232, 220, 0.82); }
+
+div:nth-child(9) {
+  animation: randomMove 3.5s infinite;
+  background-color: rgba(248, 104, 199, 0.54); }
+
+div:nth-child(10) {
+  animation: randomMove 1.5s infinite;
+  background-color: rgba(59, 217, 42, 0.82); }
+
+div:nth-child(11) {
+  animation: randomMove 9.5s infinite;
+  background-color: rgba(107, 248, 67, 0.87); }
+
+div:nth-child(12) {
+  animation: randomMove 13s infinite;
+  background-color: rgba(170, 13, 228, 0.12); }
+
+div:nth-child(13) {
+  animation: randomMove 2.5s infinite;
+  background-color: rgba(35, 112, 65, 0.96); }
+
+div:nth-child(14) {
+  animation: randomMove 5.5s infinite;
+  background-color: rgba(127, 12, 138, 0.93); }
+
+div:nth-child(15) {
+  animation: randomMove 3.5s infinite;
+  background-color: rgba(203, 230, 87, 0.51); }
+
+div:nth-child(16) {
+  animation: randomMove 14s infinite;
+  background-color: rgba(167, 150, 170, 0.53); }
+
+div:nth-child(17) {
+  animation: randomMove 14.5s infinite;
+  background-color: rgba(64, 161, 43, 0.2); }
+
+div:nth-child(18) {
+  animation: randomMove 11.5s infinite;
+  background-color: rgba(111, 35, 87, 0.75); }
+
+div:nth-child(19) {
+  animation: randomMove 10s infinite;
+  background-color: rgba(51, 115, 42, 0.65); }
+
+div:nth-child(20) {
+  animation: randomMove 4s infinite;
+  background-color: rgba(251, 176, 177, 0.67); }
+
+div:nth-child(21) {
+  animation: randomMove 9.5s infinite;
+  background-color: rgba(30, 66, 190, 0.7); }
+
+div:nth-child(22) {
+  animation: randomMove 14.5s infinite;
+  background-color: rgba(153, 128, 221, 0.28); }
+
+div:nth-child(23) {
+  animation: randomMove 5.5s infinite;
+  background-color: rgba(116, 8, 197, 0.58); }
+
+div:nth-child(24) {
+  animation: randomMove 8s infinite;
+  background-color: rgba(128, 43, 197, 0.96); }
+
+div:nth-child(25) {
+  animation: randomMove 6.5s infinite;
+  background-color: rgba(132, 31, 124, 0.21); }
+
+div:nth-child(26) {
+  animation: randomMove 13s infinite;
+  background-color: rgba(20, 107, 162, 0.32); }
+
+div:nth-child(27) {
+  animation: randomMove 6.5s infinite;
+  background-color: rgba(53, 213, 236, 0.27); }
+
+div:nth-child(28) {
+  animation: randomMove 6.5s infinite;
+  background-color: rgba(137, 62, 133, 0.86); }
+
+div:nth-child(29) {
+  animation: randomMove 14.5s infinite;
+  background-color: rgba(34, 26, 98, 0.15); }
+
+div:nth-child(30) {
+  animation: randomMove 1.5s infinite;
+  background-color: rgba(173, 20, 223, 0.83); }

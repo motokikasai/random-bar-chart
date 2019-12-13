@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: moccasin;
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: 100vh;
+  //   align-items: end;
+}
+
+div:nth-child(even) {
+  // background: linear-gradient(92deg, purple, rgb(255, 227, 227));
+  border-radius: 0 0 random(80) + px random(80) + px;
+  display: grid;
+  align-self: start;
+  // height: random(100) + vh;
+  // animation: randomMove random(3) + s ease infinite;
+}
+
+div:nth-child(odd) {
+  // background: linear-gradient(92deg, hotpink, rgb(255, 228, 233));
+  border-radius: random(80) + px random(80) + px 0 0;
+  align-self: end;
+  // height: random(100) + vh;
+  // animation: randomMove random(3) + s ease infinite;
+}
+
+@keyframes randomMove {
+  0% {
+    // height: random(100) + vh;
+    height: random(1) + vh;
+  }
+
+  50% {
+    // height: 100vh;
+    height: random(100) + vh;
+    // @include random-height(100);
+  }
+
+  100% {
+    height: random(1) + vh;
+    // height: 0;
+  }
+}
+
+@for $i from 1 through 30 {
+  div:nth-child(#{$i}) {
+    // height: random(100) + vh;
+    // @include random-height(100);
+    animation: randomMove random(30) / 2 + s infinite;
+    @include random-rgba(background-color);
+  }
+}
